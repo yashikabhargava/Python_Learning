@@ -1,3 +1,5 @@
+import math
+
 print('Yashika Bhargava')
 print('o-----')
 print(' ||||')
@@ -57,6 +59,17 @@ print(x)
 
 x -= 3
 print(x)
+
+
+# Math Functions
+
+x = 2.9
+y = -9.8
+print(round(x))  #Rounds off the number
+print(abs(y)) # Returns the positive absolute number
+
+print(math.floor(x))
+print(math.ceil(x))
 
 
 
