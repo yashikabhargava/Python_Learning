@@ -71,6 +71,17 @@ print(abs(y)) # Returns the positive absolute number
 print(math.floor(x))
 print(math.ceil(x))
 
+house_price = 1000000
+is_goodcredit = True
+
+if is_goodcredit:
+    down_payment = 10 / 100 * house_price
+
+else:
+   down_payment = 20 / 100 * house_price
+
+
+print(f"Down payment: ${down_payment} ")
 
 
 
