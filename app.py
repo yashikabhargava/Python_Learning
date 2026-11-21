@@ -83,6 +83,51 @@ else:
 
 print(f"Down payment: ${down_payment} ")
 
+# Logical operators
+
+has_good_credit = True
+has_good_income = False
+
+
+if has_good_credit and has_good_income:
+    print("Eligible for Loan")
+
+else:
+    print("Not eligible for Loan")
+
+if has_good_credit or has_good_income:
+    print("Eligible for Loan with conditions")
+
+else:
+    print("Not eligible for Loan")
+
+
+#Comparison Operator
+
+temperature = 20
+if temperature > 30:
+    print("It's a hot Day")
+
+elif temperature < 10:
+    print("It's a cold day")
+
+else:
+    print("It's neither hot nor cold")
+
+
+# Comparison Operator Exercise -
+
+name = 'Yashika'
+
+if len(name) < 3:
+    print('Name must be at least 3 characters')
+
+elif len(name) > 50:
+    print('Name can be a maximum of 50 characters')
+
+else:
+    print('Name looks good')
+
 
 
 
